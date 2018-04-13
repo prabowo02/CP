@@ -66,6 +66,7 @@ unsigned long long count_vertex_cover(long long vertices) {
 
         if (degree > max_degree) {
             heavy_vertices = {i};
+            max_degree = degree;
         } else if (degree == max_degree) {
             heavy_vertices.push_back(i);
         }
