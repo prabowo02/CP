@@ -4,6 +4,9 @@ The original [problem](https://www.hackerrank.com/contests/projecteuler/challeng
 
 Given p, q distinct odd primes, find the sum of all e such that gcd(e, (p-1)(q-1)) = 1 and the number of m in [0, pq-1] satisfy the equivalence m^e = m (mod pq) is minimum.
 
+Constraints:
+- 11 < p, q ≤ 10^9
+
 ## Solution
 
 [Number of RSA fixed point](https://math.stackexchange.com/questions/1298664/rsa-fixed-point) (including m = 0) is (1 + gcd(e-1, p-1))(1 + gcd(e-1, q-1)). To minimize the number of unconcealed messages, gcd(e-1, p-1) and gcd(e-1, q-1) must be minimized. Since p and q are odd primes and gcd(e, (p-1)(q-1)) = 1 => gcd(e, (p-1)) = gcd(e, (q-1)) = 1, gcd(e-1, p-1) must not be 1 because 2 | p-1 and 2 | e-1. In fact, the least possible value of gcd(e-1, p-1) is 2.
