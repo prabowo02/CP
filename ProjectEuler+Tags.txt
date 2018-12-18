@@ -1,0 +1,29 @@
+PE#224: pythagorean-triples, optimization, precomputation
+PE#223: pythagorean-triples, optimization
+PE#222: math, geometry
+PE#221: factorization, sieve, observation
+PE#220: math, big-integer
+PE#219: math
+PE#218: observation
+PE#217: dp
+PE#216: sieve, observation, tonelli-shanks
+PE#215: dfs, dp
+PE#214: ntt
+PE#213: dp, expected-number
+PE#212: dnc, inclusion-exclusion, geometry
+PE#211: data-structure
+PE#210: geometry
+PE#209: graph, dp, inclusion-exclusion, vertex-cover
+PE#208: combinatorics, precomputation(?)
+PE#207: math
+PE#206: brute-force, observation
+PE#205: ntt
+PE#204: dfs, mitm
+PE#203: precomputation, brute-force, combinatorics
+PE#202: inclusion-exclusion, pollard-rho, miller-rabin
+PE#201: dp
+PE#200: miller-rabin, observation
+PE#199: geometry, descartes-theorem
+PE#198: dfs, memoization
+PE#197: math
+PE#196: segmented-sieve
