@@ -25,29 +25,29 @@ struct SegTree {
     for (int i=0; i<N<<2; i++) cnt[i] = lazy[i] = 0;
   }
   
+  void update_node(int node, int l, int r) {
+    /** Adjust this function **/
+    
+    lazy[node] ^= 1;
+    cnt[node] = r - l + 1 - cnt[node];
+  }
+  
   void propagate(int node, int l, int r) {
     if (lazy[node] == 0) return;
     
     int mid = l + r >> 1;
     
-    /** Start adjust here **/
-    lazy[node*2 + 1] ^= 1;
-    cnt[node*2 + 1] = mid - l + 1 - cnt[node*2 + 1];
+    update_node(node*2 + 1, l, mid+0);
+    update_node(node*2 + 2, mid+1, r);
     
-    lazy[node*2 + 2] ^= 1;
-    cnt[node*2 + 2] = r - mid - cnt[node*2 + 2];
-    
+    /** Adjust this line **/
     lazy[node] ^= 1;
-    /** End adjust here **/
   }
   
   void update(int node, int l, int r, int a, int b) {
     if (l > b || r < a) return;
     if (l >= a && r <= b) {
-      /** Start adjust here **/
-      lazy[node] ^= 1;
-      cnt[node] = r - l + 1 - cnt[node];
-      /** End adjust here **/
+      update_node(node, l, r);
       return;
     }
     
