@@ -1,3 +1,8 @@
+PE#230: observation
+PE#229: sum-of-two-squares, legendre-symbol, pythagorean-triples
+PE#227: math, expected-number
+
+PE#225: brute-force
 PE#224: pythagorean-triples, optimization, precomputation
 PE#223: pythagorean-triples, optimization
 PE#222: math, geometry
@@ -27,3 +32,22 @@ PE#199: geometry, descartes-theorem
 PE#198: dfs, memoization
 PE#197: math
 PE#196: segmented-sieve
+PE#195: parametrization, observation
+
+PE#193: mobius
+PE#192: stern-brocot, big-integer
+PE#191: dp
+PE#190: lagrangian-multiplier, fft
+PE#189: dp
+PE#188: pollard-rho, miller-rabin, tetration
+PE#187: sieve
+PE#186: dsu
+PE#185: mitm
+PE#184: observation, sieve, inclusion-exclusion
+PE#183: math
+PE#182: inclusion-exclusion, crt
+PE#181: dp
+PE#180: fermat-last-theorem
+PE#179: sieve
+PE#178: dp
+PE#177: mitm
