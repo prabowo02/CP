@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 
+#define scanf _scanf
+
 // #define HAS_NEGATIVE_INPUT
 // #define getchar getchar_unlocked
-
-#define scanf _scanf
 
 using InputType = int;
 
@@ -32,19 +32,13 @@ InputType read_one_integer() {
 }
 
 void _scanf(const char *format, ...) {
-  // Count number of arguments;
-  int cnt = 0;
-  for (int i = 0; format[i]; ++i) {
-    if (format[i] == '%') ++cnt;
-  }
-  
   va_list args;
   va_start(args, format);
   
-  InputType *addr;
-  while (cnt--) {
-    addr = va_arg(args, InputType*);
-    *addr = read_one_integer();
+  for (const char *pc = format; *pc; ++pc) {
+    if (*pc == '%') {
+      *va_arg(args, InputType*) = read_one_integer();
+    }
   }
   
   va_end(args);
