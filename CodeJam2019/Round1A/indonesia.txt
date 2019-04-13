@@ -1,0 +1,120 @@
+===Round 1A 2019===
+The top 1500 contestants in this round will advance to Round 2.
+number of participants: 8431
+
+{1} Pylons
+ [1]  0pt visible    ?/5722
+ [2]  8pt visible 3136/5722
+ [3] 23pt  hidden  889/5722
+{2} Alien Rhyme
+ [1]  0pt visible    ?/5822
+ [2] 10pt visible 3356/5822
+ [3] 27pt  hidden 2105/5822
+{3} Golf Gophers
+ [1] 11pt visible 1834/2447
+ [2] 21pt  hidden 1051/2447
+
+99                   athin Indonesia 100pt 1:51:10 | 0:47:01 3/1 AA_ | 1:43:10 2/1 AA_ | 1:08:28   1/0 AA
+112                   Nich Indonesia 100pt 1:55:47 | 1:35:47 5/4 AA_ | 0:39:43 2/0 AA_ | 1:02:50   2/1 AA
+158                   wifi Indonesia 100pt 2:10:57 | 1:31:14 1/0 AA_ | 0:32:24 1/0 AA_ | 2:10:57   1/0 AA
+185                  azaky Indonesia 100pt 2:17:47 | 2:13:47 2/1 AA_ | 0:41:19 1/0 AA_ | 1:08:16   1/0 AA
+361            chaotic_iak Indonesia  77pt 0:58:40 | 0:18:41 1/0 A__ | 0:50:40 1/0 AA_ | 0:40:35   3/2 AA
+407                 donjar Indonesia  77pt 1:58:54 | 0:32:04 5/0 A__ | 1:47:21 1/0 AA_ | 1:50:54   3/2 AA
+458             kadalbonek Indonesia  77pt 2:17:29 | 1:36:01 3/1 A__ | 0:51:21 1/0 AA_ | 2:09:29   2/1 AA
+516               Handojo1 Indonesia  77pt 2:33:48 | 2:25:48 3/1 A__ | 0:46:34 1/0 AA_ | 0:31:59   2/1 AA
+730            SergioVieri Indonesia  69pt 2:10:09 |       -   -   - | 1:41:31 2/1 AA_ | 2:06:09   1/0 AA
+770                 Klungs Indonesia  69pt 2:30:06 | 0:00:00 2/0 ___ | 2:14:06 1/0 AA_ | 1:54:15   5/4 AA
+962             ardanachir Indonesia  63pt 2:30:48 | 1:43:24 4/2 AA_ |       -   -   - | 2:22:48   1/0 AA
+1030              davi0015 Indonesia  56pt 2:09:27 | 1:35:57 1/0 A__ | 0:46:01 4/0 AA_ | 2:09:27   2/0 A_
+1033                fushar Indonesia  56pt 2:10:49 | 2:06:49 1/0 A__ | 0:23:56 1/0 AA_ | 1:41:25   2/1 A_
+1089                 Hocky Indonesia  56pt 2:28:10 | 0:27:23 3/0 A__ | 1:31:43 3/0 AA_ | 2:12:10   5/4 A_
+1179             irwan..ap Indonesia  50pt 1:30:23 | 1:09:52 1/0 A__ | 1:30:23 1/0 A__ | 0:45:31   1/0 AA
+1190              slowpoke Indonesia  50pt 2:02:00 | 1:58:00 1/0 A__ | 1:30:44 1/0 A__ | 1:02:50   2/1 AA
+1215               plains4 Indonesia  50pt 2:26:35 | 0:57:51 1/0 A__ | 1:29:17 5/3 A__ | 1:54:35   6/5 AA
+1221                 Kezia Indonesia  50pt 2:30:53 | 0:38:18 1/0 A__ | 1:06:05 2/1 A__ | 2:14:53   4/3 AA
+1499                Ace_02 Indonesia  45pt 2:01:59 | 1:53:59 2/0 A__ | 1:03:09 3/2 AA_ | 0:00:00   2/0 __
+1540                jt3698 Indonesia  45pt 2:08:16 | 2:04:16 1/0 A__ | 1:38:42 2/1 AA_ |       -     -  -
+1702                   Oda Indonesia  45pt 2:32:41 | 2:28:41 2/1 A__ | 0:39:45 1/0 AA_ |       -     -  -
+1775                  fikr Indonesia  42pt 2:09:51 |       -   -   - | 2:09:51 1/0 A__ | 1:06:07   1/0 AA
+1816           kevinluvian Indonesia  41pt 1:53:07 | 1:16:15 2/0 AA_ | 1:53:07 3/0 A__ | 0:00:00   1/0 __
+1823           hiddentesla Indonesia  41pt 2:03:10 | 1:02:09 5/1 AA_ | 1:59:10 1/0 A__ | 0:00:00   4/0 __
+1865           shirogane14 Indonesia  41pt 2:32:58 | 1:51:50 2/1 AA_ | 2:28:58 1/0 A__ |       -     -  -
+1905               naffins Indonesia  40pt 2:24:39 | 2:04:39 1/0 A__ |       -   -   - | 1:32:27   6/5 AA
+1956               anthony Indonesia  37pt 0:38:16 | 0:00:00 1/0 ___ | 0:38:16 1/0 AA_ |       -     -  -
+2107                 Ariza Indonesia  37pt 1:08:31 |       -   -   - | 1:08:31 1/0 AA_ |       -     -  -
+2258          harliedharma Indonesia  37pt 1:38:57 | 0:00:00 1/0 ___ | 1:34:57 2/1 AA_ |       -     -  -
+2353               Budi145 Indonesia  37pt 1:58:39 |       -   -   - | 1:58:39 1/0 AA_ |       -     -  -
+2465             Fairuzi10 Indonesia  37pt 2:24:41 |       -   -   - | 2:20:41 2/1 AA_ |       -     -  -
+2661               larkuzo Indonesia  31pt 1:32:15 | 1:16:15 5/4 AA_ | 0:00:00 2/0 ___ |       -     -  -
+2676             faustaadp Indonesia  31pt 1:42:40 | 1:22:40 7/5 AA_ | 0:00:00 3/0 ___ |       -     -  -
+2701            CosmicWolf Indonesia  31pt 1:55:16 | 1:39:16 5/4 AA_ |       -   -   - | 0:00:00   5/0 __
+2712          onepiecehoki Indonesia  31pt 2:02:38 | 2:02:38 1/0 AA_ |       -   -   - |       -     -  -
+2889            kyonrevens Indonesia  29pt 3:23:20 | 0:55:21 5/2 A__ | 0:37:15 3/2 A__ | 2:27:20 13/10 A_
+2895               Zoroark Indonesia  21pt 1:22:50 | 0:00:00 5/0 ___ | 0:39:13 2/1 A__ | 1:06:50   4/3 A_
+2955             FrostyVin Indonesia  19pt 1:14:39 | 0:31:18 1/0 A__ | 0:00:00 2/0 ___ | 1:10:39   2/1 A_
+3143               nawa410 Indonesia  18pt 1:54:35 | 1:50:35 1/0 A__ | 1:18:35 2/1 A__ |       -     -  -
+3341              jonbonto Indonesia  18pt 2:35:38 | 1:19:15 5/2 A__ | 2:23:38 2/1 A__ |       -     -  -
+3375            mosesmayer Indonesia  11pt 0:28:51 | 0:00:00 2/0 ___ | 0:00:00 3/0 ___ | 0:28:51   1/0 A_
+3433      dickynovanto1103 Indonesia  11pt 1:33:07 |       -   -   - | 0:00:00 2/0 ___ | 1:29:07   2/1 A_
+3505                  snat Indonesia  11pt 2:53:07 |       -   -   - |       -   -   - | 2:25:07   8/7 A_
+3518          dancinggrass Indonesia  10pt 0:33:26 | 0:00:00 2/0 ___ | 0:33:26 2/0 A__ |       -     -  -
+3547        rtjondrowiguno Indonesia  10pt 0:50:57 |       -   -   - | 0:50:57 1/0 A__ |       -     -  -
+3649             frauklein Indonesia  10pt 1:18:49 |       -   -   - | 1:18:49 3/0 A__ |       -     -  -
+3671           kelvinc1024 Indonesia  10pt 1:23:52 | 0:00:00 2/0 ___ | 1:23:52 1/0 A__ |       -     -  -
+3766         folcotandiono Indonesia  10pt 1:45:47 | 0:00:00 2/0 ___ | 1:37:47 3/2 A__ |       -     -  -
+3914           fikriauliya Indonesia  10pt 2:20:38 |       -   -   - | 2:20:38 1/0 A__ |       -     -  -
+3986                Roslyn Indonesia   8pt 0:24:16 | 0:24:16 2/0 A__ | 0:00:00 3/0 ___ |       -     -  -
+4126                afrite Indonesia   8pt 0:57:10 | 0:57:10 1/0 A__ | 0:00:00 3/0 ___ |       -     -  -
+4149         sheinnayendri Indonesia   8pt 1:00:07 | 1:00:07 1/0 A__ | 0:00:00 3/0 ___ |       -     -  -
+4189          Feliciahalim Indonesia   8pt 1:05:11 | 1:05:11 1/0 A__ |       -   -   - |       -     -  -
+4302                  RC's Indonesia   8pt 1:21:17 | 1:01:17 6/5 A__ |       -   -   - |       -     -  -
+4356              Norman.W Indonesia   8pt 1:29:14 | 1:29:14 2/0 A__ |       -   -   - | 0:00:00   2/0 __
+4358            HendriWang Indonesia   8pt 1:29:28 | 1:29:28 1/0 A__ |       -   -   - |       -     -  -
+4372                Dreuia Indonesia   8pt 1:30:31 | 1:22:31 3/2 A__ |       -   -   - |       -     -  -
+4385              Firastic Indonesia   8pt 1:31:58 | 1:27:58 4/1 A__ |       -   -   - |       -     -  -
+4574                dieend Indonesia   8pt 2:01:13 | 2:01:13 1/0 A__ | 0:00:00 1/0 ___ |       -     -  -
+4719        nandonathaniel Indonesia   8pt 2:19:12 | 2:19:12 1/0 A__ | 0:00:00 2/0 ___ |       -     -  -
+4830        hadisiswanto62 Indonesia   0pt 0:00:00 | 0:00:00 1/0 ___ |       -   -   - |       -     -  -
+4830             Hansen111 Indonesia   0pt 0:00:00 |       -   -   - | 0:00:00 2/0 ___ |       -     -  -
+4830                   r.i Indonesia   0pt 0:00:00 |       -   -   - | 0:00:00 1/0 ___ |       -     -  -
+4830             ZenithINA Indonesia   0pt 0:00:00 | 0:00:00 5/0 ___ |       -   -   - |       -     -  -
+4830         vincentalfred Indonesia   0pt 0:00:00 | 0:00:00 4/0 ___ | 0:00:00 2/0 ___ |       -     -  -
+4830                tesAja Indonesia   0pt 0:00:00 | 0:00:00 5/0 ___ |       -   -   - |       -     -  -
+4830            andrewdudu Indonesia   0pt 0:00:00 |       -   -   - | 0:00:00 1/0 ___ |       -     -  -
+4830              dwiyanrp Indonesia   0pt 0:00:00 | 0:00:00 2/0 ___ |       -   -   - |       -     -  -
+4830        masamune.kenji Indonesia   0pt 0:00:00 | 0:00:00 1/0 ___ |       -   -   - |       -     -  -
+4830              Owmicron Indonesia   0pt 0:00:00 |       -   -   - | 0:00:00 7/0 ___ |       -     -  -
+4830              cekathan Indonesia   0pt 0:00:00 | 0:00:00 7/0 ___ |       -   -   - |       -     -  -
+4830                  ntoa Indonesia   0pt 0:00:00 | 0:00:00 3/0 ___ |       -   -   - |       -     -  -
+4830    thariq_nugrohotomo Indonesia   0pt 0:00:00 |       -   -   - |       -   -   - | 0:00:00   2/0 __
+4830          chensienyong Indonesia   0pt 0:00:00 |       -   -   - | 0:00:00 1/0 ___ |       -     -  -
+4830              TheChief Indonesia   0pt 0:00:00 | 0:00:00 1/0 ___ |       -   -   - |       -     -  -
+4830                     ? Indonesia   0pt 0:00:00 | 0:00:00 5/0 ___ |       -   -   - |       -     -  -
+4830                 ashpx Indonesia   0pt 0:00:00 | 0:00:00 2/0 ___ |       -   -   - |       -     -  -
+4830            eugene.yeo Indonesia   0pt 0:00:00 | 0:00:00 3/0 ___ |       -   -   - |       -     -  -
+4830          stephantommy Indonesia   0pt 0:00:00 | 0:00:00 1/0 ___ |       -   -   - |       -     -  -
+4830               jackyef Indonesia   0pt 0:00:00 |       -   -   - | 0:00:00 2/0 ___ |       -     -  -
+4830                 rl404 Indonesia   0pt 0:00:00 | 0:00:00 2/0 ___ |       -   -   - |       -     -  -
+4830                vianra Indonesia   0pt 0:00:00 | 0:00:00 2/0 ___ | 0:00:00 3/0 ___ |       -     -  -
+4830 radiva.hera@gmail.com Indonesia   0pt 0:00:00 |       -   -   - | 0:00:00 2/0 ___ |       -     -  -
+4830              fakhrusy Indonesia   0pt 0:00:00 |       -   -   - | 0:00:00 3/0 ___ |       -     -  -
+4830              surker23 Indonesia   0pt 0:00:00 |       -   -   - |       -   -   - | 0:00:00   5/0 __
+4830              nugrahaa Indonesia   0pt 0:00:00 |       -   -   - | 0:00:00 1/0 ___ |       -     -  -
+4830           moondemon68 Indonesia   0pt 0:00:00 |       -   -   - | 0:00:00 1/0 ___ |       -     -  -
+4830                Clapie Indonesia   0pt 0:00:00 | 0:00:00 1/0 ___ | 0:00:00 2/0 ___ |       -     -  -
+4830                  rawr Indonesia   0pt 0:00:00 |       -   -   - | 0:00:00 2/0 ___ |       -     -  -
+4830             JFernando Indonesia   0pt 0:00:00 |       -   -   - | 0:00:00 2/0 ___ |       -     -  -
+4830            bengeordie Indonesia   0pt 0:00:00 |       -   -   - | 0:00:00 2/0 ___ |       -     -  -
+4830                 Henbx Indonesia   0pt 0:00:00 | 0:00:00 1/0 ___ |       -   -   - |       -     -  -
+4830            Yobelioe17 Indonesia   0pt 0:00:00 | 0:00:00 1/0 ___ |       -   -   - |       -     -  -
+4830            indraazimi Indonesia   0pt 0:00:00 |       -   -   - | 0:00:00 2/0 ___ |       -     -  -
+4830             Tobiaswhy Indonesia   0pt 0:00:00 |       -   -   - | 0:00:00 3/0 ___ |       -     -  -
+4830                Gilang Indonesia   0pt 0:00:00 |       -   -   - | 0:00:00 2/0 ___ |       -     -  -
+4830         michaellimair Indonesia   0pt 0:00:00 |       -   -   - | 0:00:00 4/0 ___ |       -     -  -
+4830            SpitfireRD Indonesia   0pt 0:00:00 | 0:00:00 3/0 ___ |       -   -   - |       -     -  -
+4830          danieladrian Indonesia   0pt 0:00:00 | 0:00:00 2/0 ___ |       -   -   - |       -     -  -
+4830              Benedick Indonesia   0pt 0:00:00 |       -   -   - | 0:00:00 5/0 ___ |       -     -  -
+4830           meowingtons Indonesia   0pt 0:00:00 |       -   -   - | 0:00:00 1/0 ___ |       -     -  -
+4830                eighty Indonesia   0pt 0:00:00 | 0:00:00 3/0 ___ |       -   -   - |       -     -  -
+4830                   ya_ Indonesia   0pt 0:00:00 |       -   -   - |       -   -   - | 0:00:00   3/0 __
+4830           david_zheng Indonesia   0pt 0:00:00 | 0:00:00 8/0 ___ |       -   -   - |       -     -  -
