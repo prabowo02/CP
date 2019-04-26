@@ -32,9 +32,9 @@ int main() {
 
   // Special case
   if (child[root] < 2) {
-    // root bukan articulation point
+    // root is not articulation point
   } else {
-    // root adalah articulation point
+    // root is articulation point
   }
 
   return 0;
