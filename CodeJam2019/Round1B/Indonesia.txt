@@ -1,0 +1,83 @@
+===Round 1B 2019===
+The top 1500 contestants in this round will advance to Round 2.
+number of participants: 8472
+
+{1} Draupnir
+ [1] 10pt visible 2034/3536
+ [2] 21pt  hidden 1202/3536
+{2} Fair Fight
+ [1]  0pt visible    ?/5389
+ [2] 14pt visible 4824/5389
+ [3] 28pt  hidden  301/5389
+{3} Manhattan Crepe Cart
+ [1]  0pt visible    ?/7894
+ [2]  9pt visible 6040/7894
+ [3] 18pt  hidden 3837/7894
+
+224           rapel Indonesia 79pt 3:22:49 | 2:18:49 15/14 A_ | 1:56:35 3/2 AA_ | 0:45:56 1/0 AA_
+384        suhendry Indonesia 72pt 1:42:12 | 1:30:05   3/2 AA | 1:34:12 1/0 A__ | 0:24:53 1/0 AA_
+390    onepiecehoki Indonesia 72pt 1:42:50 | 1:23:05   1/0 AA | 1:42:50 1/0 A__ | 0:28:04 1/0 AA_
+426    dancinggrass Indonesia 72pt 1:46:45 | 0:53:38   2/1 AA | 1:42:45 1/0 A__ | 0:13:22 1/0 AA_
+483      mosesmayer Indonesia 72pt 1:53:43 | 1:21:02   2/1 AA | 1:49:43 1/0 A__ | 1:33:43 1/0 AA_
+505         timo123 Indonesia 72pt 1:55:50 | 1:32:01   1/0 AA | 1:55:50 2/0 A__ | 0:48:08 1/0 AA_
+545         cubicka Indonesia 72pt 2:00:39 | 1:52:39   3/2 AA | 1:04:47 1/0 A__ | 0:23:51 1/0 AA_
+613          hudi_f Indonesia 72pt 2:08:06 | 1:54:03   2/1 AA | 2:04:06 1/0 A__ | 0:48:13 1/0 AA_
+772         prabowo Indonesia 72pt 2:23:07 | 1:27:39   1/0 AA | 2:23:07 1/0 A__ | 1:28:42 1/0 AA_
+878          eighty Indonesia 72pt 2:33:56 | 2:12:29   5/4 AA | 2:17:56 1/0 A__ | 0:22:14 1/0 AA_
+1085       cekathan Indonesia 58pt 2:26:52 | 2:06:52   6/5 AA | 0:00:00 1/0 ___ | 0:37:43 1/0 AA_
+1144       jonbonto Indonesia 54pt 1:53:56 | 1:38:54   1/0 AA | 1:53:56 2/0 A__ | 0:27:59 1/0 A__
+1275       Rwhendry Indonesia 51pt 1:38:35 | 1:34:35   2/1 A_ | 0:31:52 1/0 A__ | 1:17:37 1/0 AA_
+1280   brianmarshal Indonesia 51pt 1:40:03 | 1:40:03   1/0 A_ | 0:41:22 1/0 A__ | 0:25:09 1/0 AA_
+1344       afaji321 Indonesia 51pt 1:55:19 | 1:39:19   6/4 A_ | 1:19:51 1/0 A__ | 0:17:11 3/0 AA_
+1365        Zoroark Indonesia 51pt 1:59:55 | 1:47:55   2/1 A_ | 1:20:45 3/2 A__ | 0:56:15 1/0 AA_
+1399     CosmicWolf Indonesia 51pt 2:05:48 | 2:05:48   1/0 A_ | 1:38:29 1/0 A__ | 1:02:14 1/0 AA_
+1413      JFernando Indonesia 51pt 2:08:21 | 2:04:21   2/1 A_ | 1:07:49 1/0 A__ | 0:22:51 1/0 AA_
+1456         jt3698 Indonesia 51pt 2:13:21 | 2:13:21   1/0 A_ | 1:33:01 1/0 A__ | 0:44:34 1/0 AA_
+1503 rtjondrowiguno Indonesia 51pt 2:18:18 | 2:02:18   7/4 A_ | 1:31:42 1/0 A__ | 1:17:11 1/0 AA_
+1583      minohcity Indonesia 51pt 2:26:56 | 1:54:34   3/2 A_ | 2:10:56 1/0 A__ | 0:45:43 3/2 AA_
+1673         Dasper Indonesia 51pt 2:38:52 | 1:59:23   5/4 A_ | 2:22:52 1/0 A__ | 0:21:57 1/0 AA_
+1736      faustaadp Indonesia 41pt 0:34:14 | 0:00:00  12/0 __ | 0:34:14 1/0 A__ | 0:23:25 1/0 AA_
+1751  febryantonius Indonesia 41pt 0:42:13 | 0:00:00   3/0 __ | 0:42:13 1/0 A__ | 0:30:47 1/0 AA_
+1795       rfpermen Indonesia 41pt 0:51:51 | 0:00:00   2/0 __ | 0:39:56 1/0 A__ | 0:51:51 1/0 AA_
+2069     meneketehe Indonesia 41pt 1:19:39 |       -     -  - | 1:15:39 1/0 A__ | 0:55:55 2/1 AA_
+2077       Norman.W Indonesia 41pt 1:20:32 | 0:00:00   2/0 __ | 1:12:32 1/0 A__ | 1:05:39 3/2 AA_
+2207           fikr Indonesia 41pt 1:30:29 |       -     -  - | 1:30:29 1/0 A__ | 1:19:37 1/0 AA_
+2419       ekeitaro Indonesia 41pt 1:43:11 | 0:00:00   1/0 __ | 1:43:11 1/0 A__ | 1:27:34 2/0 AA_
+2490       Owmicron Indonesia 41pt 1:48:34 |       -     -  - | 0:56:32 2/0 A__ | 1:44:34 2/1 AA_
+2539          Ariza Indonesia 41pt 1:51:48 |       -     -  - | 1:43:48 1/0 A__ | 1:00:45 3/2 AA_
+2577       hans_vin Indonesia 41pt 1:53:26 |       -     -  - | 1:53:26 2/0 A__ | 0:42:51 2/0 AA_
+2723      hajarbleh Indonesia 41pt 2:03:06 |       -     -  - | 1:59:06 1/0 A__ | 1:51:18 2/1 AA_
+2732       surker23 Indonesia 41pt 2:04:17 |       -     -  - | 2:04:17 1/0 A__ | 1:27:45 1/0 AA_
+2742    moondemon68 Indonesia 41pt 2:04:55 | 0:00:00   2/0 __ | 1:02:00 1/0 A__ | 2:00:55 2/1 AA_
+2888 junaediwidjojo Indonesia 41pt 2:15:06 |       -     -  - | 2:15:06 1/0 A__ | 1:12:50 1/0 AA_
+3057  ChrisMaxheart Indonesia 41pt 2:28:05 | 0:00:00   1/0 __ | 2:24:05 5/0 A__ | 0:22:45 2/1 AA_
+3189    kevinluvian Indonesia 37pt 2:20:57 | 2:08:57   4/3 A_ |       -   -   - | 0:49:31 1/0 AA_
+3296 hadisiswanto62 Indonesia 33pt 2:10:36 | 1:58:36   4/3 A_ | 0:58:10 1/0 A__ | 0:34:41 2/0 A__
+3336      Hansen111 Indonesia 33pt 2:20:59 | 2:07:36   3/2 A_ | 2:12:59 1/0 A__ | 0:25:45 1/0 A__
+3516      faishol27 Indonesia 27pt 0:28:17 |       -     -  - |       -   -   - | 0:28:17 1/0 AA_
+3521       Firastic Indonesia 27pt 0:28:59 |       -     -  - | 0:00:00 3/0 ___ | 0:24:59 2/1 AA_
+3535         tesAja Indonesia 27pt 0:31:40 |       -     -  - |       -   -   - | 0:31:40 1/0 AA_
+3675        Donnyvc Indonesia 27pt 0:48:27 |       -     -  - |       -   -   - | 0:48:27 1/0 AA_
+3719      frauklein Indonesia 27pt 0:54:06 | 0:00:00  11/0 __ |       -   -   - | 0:54:06 1/0 AA_
+4079         FelixP Indonesia 27pt 1:48:04 |       -     -  - |       -   -   - | 1:44:04 2/1 AA_
+4197          Henbx Indonesia 27pt 2:20:27 |       -     -  - |       -   -   - | 2:20:27 1/0 AA_
+4250     bengeordie Indonesia 27pt 2:42:01 |       -     -  - |       -   -   - | 2:26:01 5/4 AA_
+4260   fiennyangeln Indonesia 24pt 2:29:34 | 1:16:55   1/0 A_ | 2:29:34 1/0 A__ | 0:00:00 2/0 ___
+4426    fikriauliya Indonesia 23pt 1:08:44 |       -     -  - | 1:04:44 1/0 A__ | 0:37:00 2/1 A__
+4797         upuyuk Indonesia 23pt 1:45:32 |       -     -  - | 1:41:32 2/1 A__ | 0:41:10 1/0 A__
+4904            Wie Indonesia 23pt 1:55:15 |       -     -  - | 1:55:15 1/0 A__ | 1:32:19 1/0 A__
+4996        jackyef Indonesia 23pt 2:03:36 |       -     -  - | 1:07:00 1/0 A__ | 1:59:36 2/1 A__
+5519       whdinata Indonesia 14pt 1:18:44 |       -     -  - | 1:18:44 3/0 A__ |       -   -   -
+6034        naffins Indonesia  9pt 0:58:00 | 0:00:00   3/0 __ |       -   -   - | 0:58:00 1/0 A__
+6194       fakhrusy Indonesia  9pt 1:20:12 |       -     -  - |       -   -   - | 1:16:12 2/1 A__
+6214       suPirman Indonesia  9pt 1:22:42 |       -     -  - |       -   -   - | 1:22:42 1/0 A__
+6333         si.afk Indonesia  9pt 1:45:46 |       -     -  - | 0:00:00 4/0 ___ | 1:45:46 3/0 A__
+6575      ZenithINA Indonesia  0pt 0:00:00 |       -     -  - | 0:00:00 7/0 ___ |       -   -   -
+6575    williamthio Indonesia  0pt 0:00:00 |       -     -  - |       -   -   - | 0:00:00 3/0 ___
+6575   izharishaksa Indonesia  0pt 0:00:00 |       -     -  - |       -   -   - | 0:00:00 1/0 ___
+6575     flamechamp Indonesia  0pt 0:00:00 |       -     -  - |       -   -   - | 0:00:00 4/0 ___
+6575      bungamaku Indonesia  0pt 0:00:00 |       -     -  - |       -   -   - | 0:00:00 2/0 ___
+6575   harliedharma Indonesia  0pt 0:00:00 |       -     -  - |       -   -   - | 0:00:00 3/0 ___
+6575        dandiws Indonesia  0pt 0:00:00 |       -     -  - |       -   -   - | 0:00:00 1/0 ___
+6575  michaellimair Indonesia  0pt 0:00:00 |       -     -  - |       -   -   - | 0:00:00 3/0 ___
+6575        larkuzo Indonesia  0pt 0:00:00 |       -     -  - |       -   -   - | 0:00:00 1/0 ___
