@@ -20,7 +20,4 @@ Problem topics (according to my solutions), and problem difficulties (according 
 | wiknow | Data Structure, Segment Tree | 3 |
 
 I think this is the easiest ICPC Regional I have ever participated in, although the scoreboard tells otherwise...
-Nevertheless, the organizer successfully gave a very nice problemset, because it is:
-- Good: No "weird" (rare) algorithm is needed. Everything depends on your creativity to approach the problem.
-- Well-balanced: The difficulties are uniformly distributed (no difficulty spike except for magicalstring); the number of easy and hard problems are just right.
-- Diverse: Covers varying topics.
+Nevertheless, the organizer successfully gave a very nice problemset.
