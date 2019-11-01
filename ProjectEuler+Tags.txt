@@ -1,7 +1,18 @@
+PE#241: precomputation
+PE#240: dp, combinatorics
+PE#239: combinatorics
+PE#238: brute-force, ntt, multipoint-evaluation
+PE#237: dp, matrix, dsu, bfs
+PE#236: brute-force
+PE#235: binary-search
+PE#234: segmented-sieve
+PE#233: sum-of-squares, prime-counting
+PE#232: dp, precomputation
+PE#231: newton-identities, sum-of-primes, dp
 PE#230: observation
 PE#229: sum-of-two-squares, legendre-symbol, pythagorean-triples
 PE#227: math, expected-number
-
+PE#226: math, ntt, generating-function, integration-by-parts
 PE#225: brute-force
 PE#224: pythagorean-triples, optimization, precomputation
 PE#223: pythagorean-triples, optimization
@@ -51,3 +62,20 @@ PE#180: fermat-last-theorem
 PE#179: sieve
 PE#178: dp
 PE#177: mitm
+PE#176: brute-force
+PE#175: stern-brocot
+PE#174: dp
+PE#173: math
+PE#172: fft
+PE#171: dp
+PE#170: observation, precomputation
+PE#169: dp
+PE#168: brute-force
+PE#167: precomputation
+PE#166: brute-force
+PE#165: geometry
+PE#164: dp
+PE#163: math
+PE#162: dp
+PE#161: dp, bitmask
+PE#160: crt, legendre-formula
