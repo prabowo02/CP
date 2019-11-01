@@ -36,7 +36,7 @@ Therefore, we can compute the value of S by finding the series ((e^((n+1)x)) - 1
 The computation of an inverse can be done iteratively:
 Suppose Q(x) = P(x)^-1, and P_n(x) = P(x) (mod x^n) (the first n terms of P(x)) then
 
-Q_2n(x) = 2Q_n(x) - P_{2n}(x) Q_n(x)^2
+Q_{2n}(x) = 2Q_n(x) - P_{2n}(x) Q_n(x)^2
 
 with Q_0(x) = P_0(x)^-1 is computed using modular inverse as usual.
 
@@ -48,7 +48,7 @@ In general, the computation for function of polynomial can be done using [Newton
 
 Now that we have obtained the values of S_k(n), we are left with the polynomial Q(x) = P(x) \* sum_k a_k x^k, with a_k = S_k(n) 89060^k C(e, k). Computing Q(0) + Q(1) + ... + Q(89060-1) by multipoint evaluation on P(0), ..., P(89060-1) will give us the answer.
 
-The idea of multipoint evaluation is that P(x_i) is computed using P mod (x - x_i). Therefore, given points x_1, x_2, ... x_n, we compute P mod (x - x_1)(x - x_2)...(x - x_mid) and P mod (x - x_{mid+1})...(x - x_n) then proceed recursively. Of course, we need to compute the value of prod(x - x_i) beforehand in another (possibly another recursive) function.
+The idea of multipoint evaluation is that P(x_i) is computed using P mod (x - x_i). Therefore, given points x_1, x_2, ... x_n, we compute P mod (x - x_1)(x - x_2)...(x - x_mid) and P mod (x - x_{mid+1})...(x - x_n) then proceed recursively. Of course, we need to compute the value of prod(x - x_i) beforehand in another (possibly recursive) function.
 
 The computation of D(x) = P(x) mod Q(x) can be done as: D^r(x) = A^r(x) (B^r(x))^-1 (mod x^(n-m+1)) where P^r(x) is polynomial having its coefficients reversed.
 
@@ -56,6 +56,6 @@ The complexity of computing modulo is O(N log N), and therefore the complexity o
 
 ## References
 
-[Codeforces: Counting sums of powers](https://codeforces.com/blog/entry/60756)
-[Codeforces: Operations on Formal Power Series](https://codeforces.com/blog/entry/56422)
-[Moscow Workshop 2017: On Fast Fourier Transform](https://drive.google.com/file/d/1B9BIfATnI_qL6rYiE5hY9bh20SMVmHZ7/view)
+- [Codeforces: Counting sums of powers](https://codeforces.com/blog/entry/60756)
+- [Codeforces: Operations on Formal Power Series](https://codeforces.com/blog/entry/56422)
+- [Moscow Workshop 2017: On Fast Fourier Transform](https://drive.google.com/file/d/1B9BIfATnI_qL6rYiE5hY9bh20SMVmHZ7/view)
