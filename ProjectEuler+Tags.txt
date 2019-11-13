@@ -79,3 +79,12 @@ PE#163: math
 PE#162: dp
 PE#161: dp, bitmask
 PE#160: crt, legendre-formula
+PE#159: additive-function
+PE#158: dp, combinatorics
+PE#157: miller-rabin, math
+PE#156: precomputation
+PE#155: brute-force, dp, implementation, precomputation
+PE#154: legendre-formula, math
+PE#153: math, stern-brocot
+PE#152: math, precomputation
+PE#151: dp
