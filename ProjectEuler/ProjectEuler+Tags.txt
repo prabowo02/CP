@@ -1,3 +1,6 @@
+PE#244: bfs
+PE#243: math
+PE#242: series-multisection, cauchy-binomial-theorem, q-lucas-theorem, binomial-coefficient
 PE#241: precomputation
 PE#240: dp, combinatorics
 PE#239: combinatorics
