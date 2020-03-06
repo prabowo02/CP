@@ -50,7 +50,7 @@ bool isPrime(long long n) {
   if (n <= 3 || n == 5) return true;
   if (!(n & 1)) return false;
 
-  long long s = __builtin_clzll(n-1), d = n-1 >> s;
+  long long s = __builtin_ctzll(n-1), d = n-1 >> s;
   
   // Adjust the value of `16` accordingly
   for (long long i = 0; i < 16; i++) {
@@ -79,7 +79,7 @@ bool isPrime_deterministic(long long n) {
   if (n <= 3 || n == 5) return true;
   if (!(n & 1)) return false;
 
-  long long s = __builtin_clzll(n-1), d = n-1 >> s;
+  long long s = __builtin_ctzll(n-1), d = n-1 >> s;
   
   // Adjust the value of `16` accordingly
   for (long long a: A_Miller_Rabin) {
