@@ -76,12 +76,12 @@ bool isPrime(long long n) {
 // vector<long long> A_Miller_Rabin = {2, 3, 5, 7, 11, 13, 17, 19, 23}; // N <= 3 * 10^18
 vector<long long> A_Miller_Rabin = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37}; // N < 2^64
 bool isPrime_deterministic(long long n) {
+  // Remember to check for all possible of n in A_Miller_Rabin
   if (n <= 3 || n == 5) return true;
   if (!(n & 1)) return false;
 
   long long s = __builtin_ctzll(n-1), d = n-1 >> s;
-  
-  // Adjust the value of `16` accordingly
+
   for (long long a: A_Miller_Rabin) {
     long long x = power(a, d, n);
     if (x == 1 || x == n - 1) continue;
