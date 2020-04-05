@@ -1,3 +1,27 @@
+===Qualification Round 2020===
+Contestants with a final score of at least 30 points in this round will advance to Round 1.
+number of participants: 44434
+
+{1} Vestigium
+ [1] 0pt visible     ?/43280
+ [2] 7pt visible 39812/43280
+{2} ESAb ATAd
+ [1]  1pt visible   7868/9484
+ [2]  9pt visible   5703/9484
+ [3] 16pt  hidden   4802/9484
+{3} Nesting Depth
+ [1]  0pt visible     ?/37133
+ [2]  5pt visible 36097/37133
+ [3] 11pt visible 34275/37133
+{4} Indicium
+ [1]  0pt visible      ?/9944
+ [2]  7pt visible   4861/9944
+ [3] 25pt  hidden    399/9944
+{5} Parenting Partnering Returns
+ [1]  0pt visible     ?/35930
+ [2]  7pt visible 29888/35930
+ [3] 12pt visible 28703/35930
+
 9                        athin Indonesia 100pt  3:05:50 |  0:06:48  1/0 A_ |  2:53:50   3/2 AAA |  0:12:44 1/0 AA_ |  1:55:15  2/1 AA_ |  0:19:36   1/0 AA_
 154                   afaji321 Indonesia 100pt 17:59:31 | 16:21:36  2/1 A_ | 11:50:44   8/7 AAA | 16:41:02 1/0 AA_ | 16:28:49  1/0 AA_ | 17:23:31   3/1 AA_
 307                       wifi Indonesia 100pt 25:15:38 | 11:29:33  1/0 A_ | 24:59:38   5/4 AAA | 11:35:15 1/0 AA_ | 13:10:25  2/0 AA_ | 11:42:02   1/0 AA_
