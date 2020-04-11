@@ -1,0 +1,95 @@
+===Round 1A 2020===
+The top 1500 contestants in this round will advance to Round 2.
+number of participants: 11937
+
+{1} Pascal Walk
+ [1]  0pt visible    ?/7644
+ [2]  3pt visible 6159/7644
+ [3] 11pt visible 5219/7644
+ [4] 21pt  hidden 1820/7644
+{2} Square Dance
+ [1]  0pt visible    ?/4141
+ [2]  9pt visible 3114/4141
+ [3] 28pt  hidden  605/4141
+{3} Pattern Matching
+ [1]  0pt visible    ?/10401
+ [2]  5pt visible 8235/10401
+ [3]  5pt visible 5995/10401
+ [4] 18pt visible 4377/10401
+
+38            rama_pang Indonesia 100pt 1:14:49 | 0:47:50 2/0 AAA_ | 1:14:49 1/0 AA_ | 0:13:30 2/0 AAA_
+92              prabowo Indonesia 100pt 1:37:50 | 1:37:50 3/0 AAA_ | 1:16:36 1/0 AA_ | 0:12:28 1/0 AAA_
+93                rapel Indonesia 100pt 1:38:02 | 0:31:25 3/1 AAA_ | 1:26:02 2/1 AA_ | 0:42:12 2/1 AAA_
+240                wifi Indonesia 100pt 2:09:49 | 0:46:57 1/0 AAA_ | 2:05:49 2/1 AA_ | 0:26:26 1/0 AAA_
+419              Ace_02 Indonesia 100pt 2:46:25 | 0:54:11 2/1 AAA_ | 2:26:25 5/4 AA_ | 0:15:59 1/0 AAA_
+572               athin Indonesia  72pt 1:16:44 | 0:59:42 1/0 AAA_ | 1:16:44 1/0 A__ | 0:20:41 1/0 AAA_
+672        onepiecehoki Indonesia  72pt 1:47:38 | 1:23:03 1/0 AAA_ | 1:47:38 1/0 A__ | 0:35:19 1/0 AAA_
+848            rfpermen Indonesia  72pt 2:08:31 | 1:35:29 1/0 AAA_ | 2:08:31 1/0 A__ | 1:47:25 1/0 AAA_
+976           DystoriaX Indonesia  72pt 2:19:56 | 1:49:56 2/1 AAA_ | 2:15:56 1/0 A__ | 0:22:59 1/0 AAA_
+992           faustaadp Indonesia  72pt 2:21:09 | 1:44:25 5/4 AAA_ | 1:21:09 1/0 A__ | 2:01:09 2/1 AAA_
+1065          irwan..ap Indonesia  72pt 2:26:35 | 1:56:02 2/1 AAA_ | 2:22:35 1/0 A__ | 0:30:03 1/0 AAA_
+1160         mosesmayer Indonesia  72pt 2:33:26 | 1:11:26 2/0 AAA_ | 2:15:12 1/0 A__ | 2:21:26 4/3 AAA_
+1242            plains4 Indonesia  72pt 2:58:30 | 1:45:05 6/4 AAA_ | 2:26:30 3/1 A__ | 0:50:38 4/3 AAA_
+1708           davi0015 Indonesia  54pt 2:36:54 | 1:42:48 1/0 AAA_ | 2:28:54 3/2 A__ | 0:53:26 1/0 AA__
+1786             corona Indonesia  51pt 1:34:08 | 1:14:49 2/0 AA__ | 1:34:08 3/0 A__ | 0:23:16 1/0 AAA_
+1792       vistokartika Indonesia  51pt 1:35:04 | 0:22:38 2/0 AA__ | 1:31:04 1/0 A__ | 1:08:19 2/1 AAA_
+1805             jt3698 Indonesia  51pt 1:36:48 | 1:14:27 5/1 AA__ | 1:32:48 1/0 A__ | 0:36:16 1/0 AAA_
+1888         CosmicWolf Indonesia  51pt 1:48:05 | 1:05:08 1/0 AA__ | 1:32:50 2/0 A__ | 1:44:05 2/1 AAA_
+1982          Hansen111 Indonesia  51pt 1:58:46 | 1:17:02 3/0 AA__ | 1:50:46 1/0 A__ | 0:47:38 4/2 AAA_
+2077              Hocky Indonesia  51pt 2:07:48 | 1:21:31 2/1 AA__ | 2:03:48 1/0 A__ | 0:24:51 1/0 AAA_
+2085             Dasper Indonesia  51pt 2:08:17 | 1:00:51 3/2 AA__ | 1:52:17 2/1 A__ | 1:21:37 2/1 AAA_
+2119        raditya1710 Indonesia  51pt 2:11:23 | 1:12:57 1/0 AA__ | 2:11:23 1/0 A__ | 0:39:48 1/0 AAA_
+2241             tzaph_ Indonesia  51pt 2:20:48 | 0:51:35 3/0 AA__ | 2:16:48 1/0 A__ | 0:31:46 2/1 AAA_
+2260             fushar Indonesia  51pt 2:22:18 | 2:01:57 1/0 AA__ | 2:22:18 1/0 A__ | 0:52:55 1/0 AAA_
+2294     nandonathaniel Indonesia  51pt 2:25:41 | 1:18:49 1/0 AA__ | 2:21:41 1/0 A__ | 0:53:23 2/1 AAA_
+2328         farizazmip Indonesia  51pt 2:27:33 | 1:13:42 1/0 AA__ | 2:23:33 1/0 A__ | 1:57:56 2/1 AAA_
+2384         chakwetiau Indonesia  51pt 2:30:24 | 1:03:49 3/0 AA__ | 2:14:24 6/3 A__ | 0:40:19 3/1 AAA_
+2415                Wie Indonesia  51pt 2:32:40 | 2:24:40 3/1 AA__ | 1:30:35 2/1 A__ | 0:39:41 1/0 AAA_
+2471              Ariza Indonesia  51pt 2:37:41 | 1:23:33 3/0 AA__ | 2:25:41 4/3 A__ | 0:56:01 1/0 AAA_
+2532               Nich Indonesia  49pt 2:35:17 | 1:25:38 1/0 AAA_ | 2:19:17 6/4 A__ | 0:16:21 2/0 A___
+2538       bukanyohandi Indonesia  45pt 1:32:36 | 0:39:32 1/0 AAA_ |       -   -   - | 1:16:36 6/4 AA__
+2557            BebekJK Indonesia  45pt 2:12:45 | 1:30:21 2/1 AAA_ | 0:00:00 1/0 ___ | 2:04:45 2/1 AA__
+2652       nabilervatra Indonesia  42pt 1:17:32 | 1:09:32 3/2 AA__ |       -   -   - | 0:37:10 2/0 AAA_
+2737               fikr Indonesia  42pt 1:38:29 | 1:38:29 1/0 AA__ |       -   -   - | 0:41:45 1/0 AAA_
+2769        metanovitia Indonesia  42pt 1:44:46 | 1:32:46 4/3 AA__ |       -   -   - | 0:17:10 1/0 AAA_
+2814          vioalbert Indonesia  42pt 1:50:54 | 1:42:54 3/2 AA__ |       -   -   - | 0:34:07 1/0 AAA_
+3120         AW_Flister Indonesia  42pt 2:23:43 | 1:40:47 2/0 AA__ |       -   -   - | 2:15:43 4/2 AAA_
+3198   dickynovanto1103 Indonesia  42pt 2:32:17 | 2:20:17 4/2 AA__ |       -   -   - | 1:46:21 2/1 AAA_
+3201       alvinpiter94 Indonesia  42pt 2:32:37 | 2:20:37 4/3 AA__ |       -   -   - | 1:02:40 1/0 AAA_
+3245             yesnot Indonesia  42pt 2:36:44 | 2:28:44 4/2 AA__ |       -   -   - | 0:41:41 2/0 AAA_
+3494            Micchon Indonesia  35pt 1:27:30 | 1:27:30 1/0 AAA_ |       -   -   - |       -   -    -
+3528           JustinXu Indonesia  35pt 1:56:02 | 1:52:02 4/1 AAA_ |       -   -   - |       -   -    -
+3615   MinumCoklatPanas Indonesia  33pt 1:50:58 | 1:10:06 2/0 AA__ | 1:46:58 2/0 A__ | 0:47:42 3/1 AA__
+3774         JoshuaEvan Indonesia  33pt 2:41:40 | 2:17:40 7/4 AA__ | 1:38:27 1/0 A__ | 0:48:29 3/2 AA__
+4074            jfawkes Indonesia  28pt 0:37:48 | 0:00:00 1/0 ____ |       -   -   - | 0:37:48 2/0 AAA_
+4108        kelvinc1024 Indonesia  28pt 0:43:01 | 0:00:00 3/0 ____ |       -   -   - | 0:39:01 2/1 AAA_
+4117           Owmicron Indonesia  28pt 0:44:30 |       -   -    - |       -   -   - | 0:40:30 2/1 AAA_
+4131     nasgorportugal Indonesia  28pt 0:45:48 |       -   -    - |       -   -   - | 0:45:48 1/0 AAA_
+4290                ya_ Indonesia  28pt 1:02:56 |       -   -    - |       -   -   - | 1:02:56 1/0 AAA_
+4781           Rwhendry Indonesia  28pt 2:04:40 | 0:00:00 2/0 ____ | 0:00:00 1/0 ___ | 1:56:40 4/2 AAA_
+5020          alvinvaja Indonesia  28pt 2:33:45 |       -   -    - |       -   -   - | 2:29:45 2/1 AAA_
+5213 thariq_nugrohotomo Indonesia  24pt 1:54:02 | 1:41:04 1/0 AA__ | 0:00:00 1/0 ___ | 1:54:02 1/0 AA__
+5579          minohcity Indonesia  23pt 2:28:11 | 2:28:11 1/0 AA__ | 1:55:55 1/0 A__ |       -   -    -
+5630              rheru Indonesia  19pt 0:59:38 | 0:55:38 2/1 AA__ | 0:00:00 1/0 ___ | 0:12:48 1/0 A___
+5769             mcmoor Indonesia  19pt 1:50:48 | 1:42:48 3/2 AA__ |       -   -   - | 0:33:26 1/0 A___
+6115      folcotandiono Indonesia  14pt 0:40:18 | 0:40:18 1/0 AA__ |       -   -   - | 0:00:00 1/0 ____
+6141              KFile Indonesia  14pt 0:58:52 | 0:58:52 2/0 AA__ |       -   -   - |       -   -    -
+6172        clusthermal Indonesia  14pt 1:10:41 | 1:10:41 2/0 AA__ |       -   -   - |       -   -    -
+6216      alwyntandiono Indonesia  14pt 1:21:47 | 1:21:47 1/0 AA__ |       -   -   - |       -   -    -
+6361          msyamsula Indonesia  14pt 1:50:50 | 1:46:50 4/1 AA__ |       -   -   - |       -   -    -
+6503         derricklim Indonesia  14pt 2:19:00 |       -   -    - | 2:15:00 1/0 A__ | 0:27:42 2/1 A___
+6570           jonbonto Indonesia  14pt 2:27:14 | 2:23:14 2/1 AA__ |       -   -   - | 0:00:00 3/0 ____
+6683          Bryannoel Indonesia  14pt 2:36:48 | 2:28:48 3/2 AA__ |       -   -   - |       -   -    -
+6777         evanarlian Indonesia  13pt 2:07:52 | 2:07:52 1/0 A___ |       -   -   - | 1:03:43 1/0 AA__
+7135      keziaaurelia1 Indonesia  10pt 1:25:49 | 0:00:00 3/0 ____ |       -   -   - | 1:25:49 8/0 AA__
+7461        erwin9huang Indonesia  10pt 2:47:44 |       -   -    - |       -   -   - | 2:15:44 9/8 AA__
+7574            naffins Indonesia   9pt 1:59:49 |       -   -    - | 1:59:49 1/0 A__ | 0:00:00 1/0 ____
+8060         andreanlay Indonesia   5pt 0:36:35 |       -   -    - |       -   -   - | 0:36:35 2/0 A___
+8345              kecap Indonesia   5pt 0:59:54 |       -   -    - |       -   -   - | 0:59:54 1/0 A___
+8653             fauh45 Indonesia   5pt 1:26:21 | 0:00:00 2/0 ____ |       -   -   - | 1:18:21 3/2 A___
+8854             wizkim Indonesia   5pt 1:51:25 |       -   -    - |       -   -   - | 1:51:25 2/0 A___
+9413         samlushadi Indonesia   0pt 0:00:00 |       -   -    - |       -   -   - | 0:00:00 1/0 ____
+9413          Taufiqhus Indonesia   0pt 0:00:00 |       -   -    - |       -   -   - | 0:00:00 3/0 ____
+9413           darksta5 Indonesia   0pt 0:00:00 | 0:00:00 1/0 ____ |       -   -   - | 0:00:00 3/0 ____
+9413         AlfiSumadi Indonesia   0pt 0:00:00 |       -   -    - |       -   -   - | 0:00:00 2/0 ____
+9413           ArvinCiu Indonesia   0pt 0:00:00 |       -   -    - |       -   -   - | 0:00:00 3/0 ____
