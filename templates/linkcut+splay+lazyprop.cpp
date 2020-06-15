@@ -1,14 +1,14 @@
 // First used in https://www.hackerrank.com/contests/university-codesprint-3/challenges/simple-tree-counting/problem
 
 struct node {
-	node *left, *right, *par, *path_parent;
+  node *left, *right, *par, *path_parent;
   int val, lazy;
-	
-	node(int _val = 1) {
-		left = right = par = path_parent = 0;
+
+  node(int _val = 1) {
+    left = right = par = path_parent = 0;
     val = _val;
     lazy = 0;
-	}
+  }
 } *root;
 
 void propagate(node *p) {
@@ -24,45 +24,45 @@ void propagate(node *p) {
 }
 
 void zig(node *p) {
-	node *q = p->par;
-	node *r = q->par;
-	
-	if (q->left = p->right) q->left->par = q;
-	q->par = p; p->right = q;
+  node *q = p->par;
+  node *r = q->par;
 
-	if (p->par = r) {
-		if (r->left == q) r->left = p;
-		else r->right = p;
-	}
-  
+  if (q->left = p->right) q->left->par = q;
+  q->par = p; p->right = q;
+
+  if (p->par = r) {
+    if (r->left == q) r->left = p;
+    else r->right = p;
+  }
+
   p->path_parent = q->path_parent;
   q->path_parent = 0;
 }
 
 void zag(node *p) {
-	node *q = p->par;
-	node *r = q->par;
-	
-	if (q->right = p->left) q->right->par = q;
-	q->par = p; p->left = q;
-	
-	if (p->par = r) {
-		if (r->left == q) r->left = p;
-		else r->right = p;
-	}
+  node *q = p->par;
+  node *r = q->par;
+
+  if (q->right = p->left) q->right->par = q;
+  q->par = p; p->left = q;
+
+  if (p->par = r) {
+    if (r->left == q) r->left = p;
+    else r->right = p;
+  }
 	
   p->path_parent = q->path_parent;
   q->path_parent = 0;
 }
 
 void splay(node *p, node *par = 0) {
-	while (p->par != par) {
-		node *q = p->par;
-		node *r = q->par;
-		
-		if (r != par) {	
+  while (p->par != par) {
+    node *q = p->par;
+    node *r = q->par;
+
+    if (r != par) {	
       propagate(r); propagate(q); propagate(p);
-		  if (r->left == q) {
+      if (r->left == q) {
         if (q->left == p) zig(q), zig(p);
         else zag(p), zig(p);
       } else {
