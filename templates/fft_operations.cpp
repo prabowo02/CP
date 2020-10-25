@@ -5,17 +5,15 @@ const int MOD = 998244353;
 // O(N)
 vector<int> add(vector<int> a, vector<int> b) {
   if (a.size() < b.size()) swap(a, b);
-  vector<int> ret(a.size());
   for (int i = 0; i < b.size(); ++i) a[i] = (a[i] + b[i]) % MOD;
-  return ret;
+  return a;
 }
 
 // O(N)
 vector<int> subtract(vector<int> a, vector<int> b) {
   if (a.size() < b.size()) a.resize(b.size());
-  vector<int> ret(a.size());
   for (int i = 0; i < b.size(); ++i) a[i] = (a[i] - b[i] + MOD) % MOD;
-  return ret;
+  return a;
 }
 
 // O(N^2)
