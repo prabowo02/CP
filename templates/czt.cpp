@@ -3,17 +3,14 @@ vector<int> czt(vector<int> a, int z, int n) {
   int iz = power(z, MOD-2);
 
   // zp[i] = z^C(i, 2)
-  vector<int> zp(sz), izp(sz);
+  vector<int> zp(sz, z), izp(sz, iz);
   zp[0] = zp[1] = izp[0] = izp[1] = 1;
-
-  for (int i = 2; i < sz; ++i) {
-    zp[i] = 1LL * zp[i-1] * z % MOD;
-    izp[i] = 1LL * izp[i-1] * iz % MOD;
-  }
-
-  for (int i = 2; i < sz; ++i) {
-    zp[i] = 1LL * zp[i] * zp[i-1] % MOD;
-    izp[i] = 1LL * izp[i] * izp[i-1] % MOD;
+ 
+  for (int k = 0; k < 2; ++k) {
+    for (int i = 2; i < len; ++i) {
+      zp[i] = 1LL * zp[i] * zp[i-1] % mod;
+      izp[i] = 1LL * izp[i] * izp[i-1] % mod;
+    }
   }
 
   vector<int> A(a.size());
