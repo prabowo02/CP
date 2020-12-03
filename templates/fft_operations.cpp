@@ -118,7 +118,8 @@ vector<int> exp(int n, vector<int> a) {
   vector<int> res = {1};
   a.resize(n*2);
   for (int len = 2; len < n<<1; len <<= 1) {
-    vector<int> sub(len); for (int i = 0; i < len; ++i) sub[i] = (res[i] - a[i] + MOD) % MOD;
+    vector<int> lg = log(len, res);
+    vector<int> sub(len); for (int i = 0; i < len; ++i) sub[i] = (lg[i] - a[i] + MOD) % MOD;
     vector<int> tmp = multiply(sub, res);
     res.resize(len);
     for (int i = 0; i < len; ++i) res[i] = (res[i] - tmp[i] + MOD) % MOD;

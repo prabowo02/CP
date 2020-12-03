@@ -1,7 +1,8 @@
 // TYPE | MAT | INVMAT
 // XOR | [[1, 1], [1, -1]] | [[1, 1], [1, -1]]
-// AND | [[0, 1], [1, 1]] | [[-1, 1], [1, 0]]
-// OR | [[1, 1], [1, 0]] | [[0, 1], [1, -1]]
+// AND | [[1, 1], [0, 1]] | [[1, -1], [0, 1]] // sum over superset
+// OR | [[1, 0], [1, 1]] | [[1, 0], [1, -1]] // sum over subset
+// NOT: bit inverse the resulting array
 
 void fwht(int n, int a[]) {
   for (int len = 1; len < n; len <<= 1) {
