@@ -27,14 +27,14 @@ struct Dinic {
     queue<int> q;
     q.push(s);
     
-    for (int i=0; i<=t; i++) dist[i] = -1;
+    for (int i = 0; i <= t; ++i) dist[i] = -1;
     dist[s] = 0;
     
     while (q.size()) {
       int u = q.front();
       q.pop();
       
-      for (int i=0; i<edges[u].size(); i++) {
+      for (int i = 0; i < edges[u].size(); ++i) {
         int v = edges[u][i];
         int c = cap[u][i];
         if (dist[v] >= 0 || c == 0) continue;
@@ -48,7 +48,7 @@ struct Dinic {
   
   int dfs(int u, int f) {
     if (u == t) return f;
-    for (; it[u]<edges[u].size(); ++it[u]) {
+    for (; it[u] < edges[u].size(); ++it[u]) {
       int i = it[u];
       int v = edges[u][i];
       int c = cap[u][i];
@@ -68,7 +68,7 @@ struct Dinic {
   int maxflow() {
     int ret = 0;
     while (bfs()) {
-      for (int i=0; i<=t; i++) it[i] = 0;
+      for (int i = 0; i <= t; ++i) it[i] = 0;
       while (int flow = dfs(s, INF)) {
         ret += flow;
       }
