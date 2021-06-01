@@ -3,14 +3,14 @@
 const int MOD = 998244353;
 
 // O(N)
-vector<int> add(vector<int> a, vector<int> b) {
+vector<int> operator + (vector<int> a, vector<int> b) {
   if (a.size() < b.size()) swap(a, b);
   for (int i = 0; i < b.size(); ++i) a[i] = (a[i] + b[i]) % MOD;
   return a;
 }
 
 // O(N)
-vector<int> subtract(vector<int> a, vector<int> b) {
+vector<int> operator - (vector<int> a, vector<int> b) {
   if (a.size() < b.size()) a.resize(b.size());
   for (int i = 0; i < b.size(); ++i) a[i] = (a[i] - b[i] + MOD) % MOD;
   return a;
@@ -28,16 +28,18 @@ vector<int> multiply_small(vector<int> a, vector<int> b) {
 }
 
 vector<int> multiply_large(vector<int> a, vector<int> b) {
-  int len = (a.size() + b.size() == 2 ? 1 : 1 << (32 - __builtin_clz(a.size() + b.size() - 2)));
+  int deg = a.size() + b.size() - 2;
+  int len = (deg == 0 ? 1 : 1 << (32 - __builtin_clz(deg)));
   a.resize(len); b.resize(len);
-  fft(len, a, false); fft(len, b, false);
+  FFT::fft(len, a, false); FFT::fft(len, b, false);
   a.resize(len);
   for (int i = 0; i < len; ++i) a[i] = 1LL * a[i] * b[i] % MOD; 
-  fft(len, a, true);
+  FFT::fft(len, a, true);
+  a.resize(deg + 1);
   return a;
 }
 
-vector<int> multiply(vector<int> a, vector<int> b) {
+vector<int> operator * (vector<int> a, vector<int> b) {
   if (1LL * a.size() * b.size() <= 5000) return multiply_small(a, b);
   return multiply_large(a, b);
 }
