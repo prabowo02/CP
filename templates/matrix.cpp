@@ -9,17 +9,19 @@ struct Matrix {
   int a[SZ][SZ];
   
   Matrix(int val = 0) {
-    for (int i=0; i<SZ; i++) {
-      for (int j=0; j<SZ; j++) a[i][j] = 0;
+    for (int i = 0; i < SZ; ++i) {
+      for (int j = 0; j < SZ; ++j) {
+        a[i][j] = 0;
+      }
       a[i][i] = val;
     }
   }
   
   Matrix operator * (const Matrix &other) {
     Matrix ret;
-    for (int i=0; i<SZ; i++) {
-      for (int j=0; j<SZ; j++) {
-        for (int k=0; k<SZ; k++) {
+    for (int i = 0; i < SZ; ++i) {
+      for (int j = 0; j < SZ; ++j) {
+        for (int k = 0; k < SZ; ++k) {
           ret.a[i][j] = (1LL * a[i][k] * other.a[k][j] + ret.a[i][j]) % MOD;
         }
       }
@@ -29,8 +31,10 @@ struct Matrix {
   }
   
   void print() {
-    for (int i=0; i<SZ; i++) {
-      for (int j=0; j<SZ; j++) printf("%d ", a[i][j]);
+    for (int i = 0; i < SZ; ++i) {
+      for (int j = 0; j < SZ; ++j) {
+        printf("%d ", a[i][j]);
+      }
       printf("\n");
     }
   }
@@ -45,23 +49,25 @@ struct Matrix {
     n = _n;
     a = (int **) malloc(n * sizeof(int *));
     
-    for (int i=0; i<n; i++) {
+    for (int i = 0; i < n; ++i) {
       a[i] = (int *) malloc(n * sizeof(int));
-      for (int j=0; j<n; j++) a[i][j] = 0;
+      for (int j = 0; j < n; ++j) {
+        a[i][j] = 0;
+      }
       a[i][i] = val;
     }
   }
   
   ~Matrix() {
-    for (int i=0; i<n; i++) free(a[i]);
+    for (int i = 0; i < n; ++i) free(a[i]);
     free(a);
   }
   
   Matrix operator * (const Matrix &other) {
     Matrix ret(n);
-    for (int i=0; i<n; i++) {
-      for (int j=0; j<n; j++) {
-        for (int k=0; k<n; k++) {
+    for (int i = 0; i < n; ++i) {
+      for (int j = 0; j < n; ++j) {
+        for (int k = 0; k < n; ++k) {
           ret.a[i][j] = (1LL * a[i][k] * other[k][j] + ret[i][j]) % MOD;
         }
       }
@@ -75,8 +81,10 @@ struct Matrix {
   }
   
   void print() {
-    for (int i=0; i<n; i++) {
-      for (int j=0; j<n; j++) printf("%d ", a[i][j]);
+    for (int i = 0; i < n; ++i) {
+      for (int j = 0; j < n; ++j) {
+        printf("%d ", a[i][j]);
+      }
       printf("\n");
     }
   }
