@@ -4,7 +4,7 @@ using namespace std;
 const int N = 100005;
 
 int n, m;
-vector<int> edges[N], redges[N];;
+vector<int> edges[N], redges[N];
 bool vis[N];
 
 void dfs(int u, vector<int> &order, vector<int> edges[]) {

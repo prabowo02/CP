@@ -1,86 +1,96 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-const int N = 300003;
+namespace HopcroftKarp {
 
-const int MAXN1 = N;
-const int MAXN2 = N;
-const int MAXM = N;
+int n1, n2;
 
-int n1, n2, edges, last[MAXN1], prv[MAXM], head[MAXM];
-int matching[MAXN2], dist[MAXN1], Q[MAXN1];
-bool used[MAXN1], vis[MAXN1];
+vector<vector<int>> adj;
+vector<int> dist, match;
+vector<bool> vis, matched;
 
-// https://sites.google.com/site/indy256/algo_cpp/hopcroft_karp
 void init(int _n1, int _n2) {
   n1 = _n1;
   n2 = _n2;
-  edges = 0;
-  fill(last, last + n1, -1);
+  adj.resize(n1);
 }
 
 void addEdge(int u, int v) {
-  head[edges] = v;
-  prv[edges] = last[u];
-  last[u] = edges++;
+  adj[u].push_back(v);
 }
 
 void bfs() {
-  fill(dist, dist + n1, -1);
-  int sizeQ = 0;
-  for (int u = 0; u < n1; ++u) {
-    if (!used[u]) {
-      Q[sizeQ++] = u;
+  dist.assign(n1, -1);
+  queue<int> q;
+  for (int u = 0; u < n; ++u) {
+    if (!matched[u]) {
+      q.push(u);
       dist[u] = 0;
     }
   }
-  for (int i = 0; i < sizeQ; i++) {
-    int u1 = Q[i];
-    for (int e = last[u1]; e >= 0; e = prv[e]) {
-      int u2 = matching[head[e]];
-      if (u2 >= 0 && dist[u2] < 0) {
-        dist[u2] = dist[u1] + 1;
-        Q[sizeQ++] = u2;
+
+  while (!q.empty()) {
+    int u = q.front();
+    q.pop();
+    for (int v : adj[u]) {
+      if (match[v] >= 0 && dist[match[v]] == -1) {
+        dist[match[v]] = dist[u] + 1;
+        q.push(match[v]);
       }
     }
   }
 }
 
-bool dfs(int u1) {
-  vis[u1] = true;
-  for (int e = last[u1]; e >= 0; e = prv[e]) {
-    int v = head[e];
-    int u2 = matching[v];
-    if (u2 < 0 || !vis[u2] && dist[u2] == dist[u1] + 1 && dfs(u2)) {
-      matching[v] = u1;
-      used[u1] = true;
+int dfs(int u) {
+  if (vis[u]) return false;
+  vis[u] = true;
+  for (int v : adj[u]) {
+    if (match[v] == -1 || dist[match[v]] == dist[u] + 1 && self(self, match[v])) {
+      match[v] = u;
+      matched[u] = true;
       return true;
     }
   }
   return false;
 }
 
-int maxMatching() {
-  fill(used, used + n1, false);
-  fill(matching, matching + n2, -1);
-  for (int res = 0;;) {
+int maxMatch() {
+  matched.assign(n1, false);
+  match.assign(n2, -1);
+  int ret = 0;
+  while (true) {
+    vis.assign(n1, false);
     bfs();
-    fill(vis, vis + n1, false);
-    int f = 0;
-    for (int u = 0; u < n1; ++u)
-      if (!used[u] && dfs(u))
-        ++f;
-    if (!f)
-      return res;
-    res += f;
+    int flow = 0;
+    for (int u = 0; u < n; ++u) {
+      if (!matched[u] && dfs(dfs, u)) {
+        ++flow;
+      }
+    }
+    if (!flow) break;
+    ret += flow;
   }
+  return ret;
+}
+
+int maxMatch(vector<vector<int>> &_adj) {
+  swap(adj, _adj);
+  int n = adj.size();
+  init(n, n);
+  int ret = maxMatch();
+  swap(adj, _adj);
+  return ret;
+}
+
 }
 
 int main() {
-  init(2, 3);
-  addEdge(0, 1);
-  addEdge(2, 1);
-  printf("%d\n", maxMatching());
+  HopcroftKarp::init(2, 3);
+  HopcroftKarp::addEdge(0, 1);
+  HopcroftKarp::addEdge(1, 1);
+  printf("%d\n", HopcroftKarp::maxMatch());
 
+  // Or, if you have vector<vector<int>> adj
+  printf("%d\n", HopcroftKarp::maxMatch(adj));
   return 0;
 }

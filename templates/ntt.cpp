@@ -1,12 +1,7 @@
-/*
-Usage Example:
-```
-int a[n], b[n], c[n];
-fft(n, a, false); fft(n, b, false);
-for (int i=0; i<n; i++) c[i] = a[i]*b[i];
-fft(n, c, true);
-```
-*/
+#include <bits/stdc++.h>
+using namespace std;
+
+using Poly = vector<int>;
 
 int power(int x, int y) {
   int ret = 1;
@@ -67,4 +62,35 @@ void fft(int n, vector<int> &a, bool invert) {
   }
 }
 
+}
+
+vector<int> multiply_small(vector<int> a, vector<int> b) {
+  vector<int> c(a.size() + b.size() - 1);
+  for (int i = 0; i < a.size(); ++i) {
+    for (int j = 0; j < b.size(); ++j) {
+      c[i+j] = (1LL * a[i] * b[j] + c[i+j]) % MOD;
+    }
+  }
+  return c;
+}
+
+vector<int> multiply_large(vector<int> a, vector<int> b) {
+  int deg = a.size() + b.size() - 2;
+  int len = (deg == 0 ? 1 : 1 << (32 - __builtin_clz(deg)));
+  a.resize(len); b.resize(len);
+  FFT::fft(len, a, false); FFT::fft(len, b, false);
+  a.resize(len);
+  for (int i = 0; i < len; ++i) a[i] = 1LL * a[i] * b[i] % MOD;
+  FFT::fft(len, a, true);
+  a.resize(deg + 1);
+  return a;
+}
+
+Poly operator * (Poly a, Poly b) {
+  if (1LL * a.size() * b.size() <= 5000) return multiply_small(a, b);
+  return multiply_large(a, b);
+}
+
+int main() {
+  FFT::init_fft();
 }

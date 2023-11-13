@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// TODO: add `set` and `max_left` operations
+// TODO: use generic types to store values
 class SegTree {
   int n;
   vector<int> lazy;
@@ -8,6 +10,7 @@ class SegTree {
 
   int base = -1;
   inline int op(int a, int b) { return max(a, b); }
+  inline int prod(int a, int b) { return max(a, b); }
 
   // int base = 0;
   // inline int op(int a, int b) { return a + b; }
@@ -25,7 +28,7 @@ class SegTree {
     int rnode = idx + (mid - l) * 2;
     build(lnode, l, mid, vals);
     build(rnode, mid, r, vals);
-    value[idx] = op(value[lnode], value[rnode]);
+    value[idx] = prod(value[lnode], value[rnode]);
   }
   
   void propagate(int idx, int l, int r) {
@@ -58,7 +61,7 @@ class SegTree {
     update(lnode, l, mid, ll, rr, val);
     update(rnode, mid, r, ll, rr, val);
 
-    value[idx] = op(value[lnode], value[rnode]);
+    value[idx] = prod(value[lnode], value[rnode]);
   }
   
   int query(int idx, int l, int r, int ll, int rr) {
@@ -71,7 +74,7 @@ class SegTree {
     int lnode = idx + 1;
     int rnode = idx + (mid - l) * 2;
     
-    return op(query(lnode, l, mid, ll, rr), query(rnode, mid, r, ll, rr));
+    return prod(query(lnode, l, mid, ll, rr), query(rnode, mid, r, ll, rr));
   }
 
  public:
@@ -90,6 +93,7 @@ class SegTree {
 
   inline void update(int x, int val) { update(0, 0, n, x, x + 1, val); }
   inline void update(int l, int r, int val) { update(0, 0, n, l, r, val); }
+  inline int query() { return query(0, 0, n, 0, n); }
   inline int query(int x) { return query(0, 0, n, x, x + 1); }
   inline int query(int l, int r) { return query(0, 0, n, l, r); }
 } tree;

@@ -4,17 +4,18 @@ using namespace std;
 const int N = 1000;
 const int INF = 1000000000;
 
-// TODO: define typing for flow and cost separately
-
+using Flow = int;
+using Cost = int;
 struct MinCostFlow {
   struct Edge {
-    int to, cap, flow, rev;
-    int cost;
+    int to, rev;
+    Flow cap, flow;
+    Cost cost;
   };
 
   int source, sink;
   vector<Edge> edge[N];
-  int pot[N];
+  Cost pot[N];
 
   void reset() {
     for (int i = 0; i < N; ++i) {
@@ -23,26 +24,25 @@ struct MinCostFlow {
     }
   }
 
-  void addEdge(int u, int v, int c, int f) {
-    Edge edge1 = {v, f, 0, (int) edge[v].size(), c};
-    Edge edge2 = {u, 0, 0, (int) edge[u].size(), -c};
+  void addEdge(int u, int v, Cost c, Flow f) {
+    Edge edge1 = {v, (int) edge[v].size(), f, 0, c};
+    Edge edge2 = {u, (int) edge[u].size(), 0, 0, -c};
     edge[u].push_back(edge1);
     edge[v].push_back(edge2);
   }
 
-  pair<int, int> dijkstra() {
-    // pq{cost, flow}
-    priority_queue<pair<int, int>> pq;
+  pair<Flow, Cost> dijkstra() {
+    priority_queue<pair<Cost, Flow>> pq;
     pq.push(make_pair(0, source));
 
     vector<bool> vis(sink + 1, false);
-    vector<int> dist(sink + 1, INF);
+    vector<Cost> dist(sink + 1, INF);
     vector<pair<int, int>> prev(sink + 1);
 
     dist[source] = 0;
 
     while (pq.size()) {
-      pair<int, int> now = pq.top();
+      pair<Cost, Flow> now = pq.top();
       int u = now.second;
       pq.pop();
 
@@ -55,7 +55,7 @@ struct MinCostFlow {
 
         if (e.cap - e.flow == 0) continue;
 
-        int d = dist[u] + e.cost + pot[u] - pot[v];
+        Cost d = dist[u] + e.cost + pot[u] - pot[v];
         if (d < dist[v]) {
           dist[v] = d;
           pq.push(make_pair(-d, v));
@@ -68,8 +68,8 @@ struct MinCostFlow {
 
     if (dist[sink] == INF) return make_pair(0, 0);
 
-    int f = INF;
-    int sum = 0;
+    Flow f = INF;
+    Cost sum = 0;
     int now = sink;
 
     while (now != source) {
@@ -92,10 +92,9 @@ struct MinCostFlow {
     return make_pair(f, sum * f);
   };
 
-  // {flow, cost}
-  pair<int, int> minCostMaxFlow() {
-    pair<int, int> tmp = dijkstra();
-    pair<int, int> ret = make_pair(0, 0);
+  pair<Flow, Cost> minCostMaxFlow() {
+    pair<Flow, Cost> tmp = dijkstra();
+    pair<Flow, Cost> ret = make_pair(0, 0);
     while (tmp.first) {
       ret.first += tmp.first;
       ret.second += tmp.second;
