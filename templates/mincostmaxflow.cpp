@@ -32,7 +32,7 @@ struct MinCostFlow {
   }
 
   pair<Flow, Cost> dijkstra() {
-    priority_queue<pair<Cost, Flow>> pq;
+    priority_queue<pair<Cost, int>> pq;
     pq.push(make_pair(0, source));
 
     vector<bool> vis(sink + 1, false);
@@ -42,7 +42,7 @@ struct MinCostFlow {
     dist[source] = 0;
 
     while (pq.size()) {
-      pair<Cost, Flow> now = pq.top();
+      pair<Cost, int> now = pq.top();
       int u = now.second;
       pq.pop();
 
@@ -105,9 +105,8 @@ struct MinCostFlow {
 } mcmf;
 
 int main() {
-	mcmf.reset(); // Not necessary for the first time
-	mcmf.sink = 1; mcmf.source = 0;
-	mcmf.addEdge(0, 1, 1, 100);
-	pair<int, int> = mcmf.minCostMaxFlow(); // {flow, cost}
+  mcmf.sink = 1; mcmf.source = 0;
+  mcmf.addEdge(0, 1, 1, 100);
+  pair<int, int> = mcmf.minCostMaxFlow();
   return 0;
 }
