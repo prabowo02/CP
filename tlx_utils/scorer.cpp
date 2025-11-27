@@ -42,6 +42,10 @@ void registerScorer(int argc, char* argv[]) {
 }
 
 template<class T> inline void readStream(std::ifstream &ifs, T &t) { if (!(ifs >> t)) wa(); }
+int readInt(std::ifstream &ifs) { int t; readStream(ifs, t); return t; }
+std::string readString(std::ifstream &ifs) { std::string s; readStream(ifs, s); return s; }
+std::string readLine(std::ifstream &ifs) { std::string s; std::getline(ifs, s); return s; }
+double readDouble(std::ifstream &ifs) { double x; readStream(ifs, x); return x; }
 
 void eof() {
   std::string dummy;
@@ -72,6 +76,25 @@ double absoluteOrRelativeError(double expected, double result) {
     return absolute < relative ? absolute : relative;
   }
   return absolute;
+}
+
+int getSubtaskNumber(char *c) {
+  while (*c != '_') ++c;
+  ++c;
+  return *c - '0';
+}
+
+int subtaskPoints(int subtask) {
+  if (subtask == 1) {
+    return 16;
+  }
+  if (subtask == 2) {
+    return 22;
+  }
+  if (subtask == 3) {
+    return 62;
+  }
+  return 0;
 }
 
 int main(int argc, char* argv[]) {

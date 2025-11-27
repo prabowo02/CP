@@ -60,7 +60,7 @@ def main():
         subtask = get_input_subtask(filename)
 
         subtask_counter[subtask] += 1
-        tc_num = get_sample_number(filename) if subtask == 'sample' else subtask_counter[subtask]
+        tc_num = get_input_sample_number(filename) if subtask == 'sample' else subtask_counter[subtask]
         tc_id_to_subtasks[tc_id] = (subtask, tc_num)
 
         ori_filename = os.path.join(INPUT_DIR, filename)
